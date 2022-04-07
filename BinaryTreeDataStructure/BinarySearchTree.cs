@@ -63,14 +63,15 @@ namespace BinaryTreeDataStructure
                 rightCount++;
             }
         }
+        //Creating a method to search element in BST
         public Node<T> Search(Node<T> root ,T data)
         {
-            if(root == null)
+            if(root == null) //If root is null that means element not found
             {
                 Console.WriteLine($"\n{data} is not founded in Binary search tree");
                 return null;
             }
-            if(root.data.Equals(data))
+            if(root.data.Equals(data))//If element is equal to root value that means element founded
             {
                 Console.WriteLine($"\n{data} is founded in Binary search tree");
                 return root;
