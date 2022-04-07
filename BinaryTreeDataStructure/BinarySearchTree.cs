@@ -63,7 +63,7 @@ namespace BinaryTreeDataStructure
                 rightCount++;
             }
         }
-        //Creating a metod to search element in BST
+        //Creating a method to search element in BST
         public Node<T> Search(Node<T> root ,T data)
         {
             if(root == null) //If root is null that means element not found
